@@ -63,30 +63,6 @@ class Trc20
         return true;
     }
 
-    /**
-     * Find orders based on wallet address and amount
-     * @param $token
-     * @param $amount
-     * @return string[]
-     */
-    public static function findOrder($token, $amount)
-    {
-        return [''];
-    }
-
-    /**
-     * Perform final business processing
-     * @param $tradeId
-     * @param $token
-     * @param $amount
-     * @param $hash
-     * @return void
-     */
-    public static function OrderProcess($tradeId, $token, $amount, $hash)
-    {
-
-    }
-
     public static function get($url,$queryString)
     {
         $ch = curl_init();
